@@ -1,0 +1,342 @@
+.links{
+    font-size: 15px;
+    border-radius: 50px;
+    height:40px;
+    margin-right: 5px;
+}
+.links:hover{
+    background-color: rgb(36, 36, 36);
+
+}
+.signup{
+    font-size: 15px;
+}
+#signup{
+    border: none; 
+    border-radius: 20px; 
+    width: 90px; height: 40px;
+    margin-left: 10px;
+}
+.signup:hover{
+    background-color: rgb(221, 218, 218);
+}
+#login{
+    margin-left: -60px;
+}
+@media (max-width:480px){
+    #login{
+        margin-left: 220px;
+        margin-top: -40px;
+        width: 60px;
+    }
+    #loginDiv{
+        width: 0px;
+        height: 0px;
+        margin-left: -70px;
+    }
+    #signup{
+        margin-left: 220px;
+        margin-top: -40px;
+    }
+    #about{
+        width: 0px;
+        height: 0px;
+    }
+    #logo{
+        margin-left: -50px;
+    }
+    nav{
+        width: 400px;
+    }
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.text{
+    width: 470px;
+    height: 550px;
+    
+}
+.map{
+    width: 670px;
+    height: 550px;
+    
+
+}
+.car{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.car:active{
+    background-color: white;
+}
+.package{
+    margin-left: 110px;
+}
+.pack{
+    font-weight: 600; 
+    color:gray; 
+    text-decoration:none; 
+    margin-top:50px"
+}
+.pack:hover{
+    color: black;
+}
+.packag:hover{
+    color:'#070707';
+}
+.one{
+    margin-top: 40px;
+    width:400px;
+    height: 50px;
+    border: none;
+    background-color: rgb(239, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.one input{
+    border: none;
+    background-color: rgb(239, 237, 237);
+    width: 320px;
+    height: 45px;
+    outline: none;
+
+}
+.two{
+    margin-top: 15px;
+    width:400px;
+    height: 50px;
+    border: none;
+    background-color: rgb(239, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.two input{
+    border: none;
+    background-color: rgb(239, 237, 237);
+    width: 320px;
+    height: 45px;
+    outline: none;
+}
+.three{
+    margin-top:15px;
+    width:195px;
+    height: 50px;
+    border: none;
+    background-color: rgb(239, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.three input{
+    border: none;
+    background-color: rgb(239, 237, 237);
+    width: 120px;
+    height: 45px;
+    outline: none;
+}
+.now{
+    margin-top:15px;
+    width:195px;
+    height: 50px;
+    border: none;
+    background-color: rgb(239, 237, 237);
+    border-radius: 8px;
+
+}
+#form:active{
+    border: 2px solid black;
+}
+.recent{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#headinggs{
+    font-size: 50px; 
+    font-weight: bold; 
+    margin-top: 120px;
+}
+@media(max-width:480px){
+    .flex{
+        margin-left: 10px;
+    }
+    .one, .two{
+        width: 375px;
+    }
+    .three{
+        width: 183px;
+    }
+    #headinggs{
+        margin-top: 200px;
+    }
+    #image1{
+        
+        display: none;
+    }
+    #image2{
+        margin-top: -250px;
+    }
+   
+}
+.text1{
+    width: 450px;
+    height: 500px;
+}
+.image1{
+    width: 670px;
+    height: 500px;
+}
+#suggestion{
+    font-size: 35px; 
+    font-weight: bold; 
+    margin-left: 65px;
+}
+.suggestion{
+    width:100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.sugg{
+    width: 370px;
+    background-color: rgba(243,243,243,255);
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+}
+.carbut{
+    color: black; 
+    background-color: white;
+    border: none; 
+    border-radius: 20px; 
+    width: 80px;
+    height: 35px;
+    font-size: small;
+}
+.carbut:hover{
+    background-color: rgb(225, 225, 225);
+}
+.scan{
+    background-color: rgba(246,246,246,255);
+    width: 100%;
+    height: 350px;
+    margin-top: 210px;
+}
+.scan2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media(max-width:480px){
+    #suggestion{
+        margin-top: 400px;
+    }
+    .recent{
+        margin-top: 350px;
+    }
+    .scan{
+        margin-top: 350px;
+
+    }
+    .scan2{
+        justify-content: center;
+        margin-left: -60px;
+    }
+    .scan2 a{
+        width: 300px;
+    }
+    #scanimg1{
+        margin-left: -80px;
+        
+    }
+    .map{
+        margin-bottom: -300px;
+    }
+   
+
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 820px;
+    margin-top: 40px;
+}
+.foot1{
+    width: 200px;
+    height: 290px;    
+}
+.foot2{
+    text-decoration: none;
+    color: white;
+    font-size: 14.5px;
+}
+.foot2:hover{
+    color: rgb(121, 121, 121);
+}
+.foot3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+    margin-top: -30px;
+    margin-left:50px;
+}
+.smedia{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;   
+    
+}
+#smedia:hover{
+    background-color:rgb(43, 43, 43) ;
+}
+#foot4{
+    text-decoration: none; 
+    margin-right: 20px;
+    color: rgb(157, 156, 156);
+}
+#foot4:hover{
+    color: rgb(81, 81, 81);;
+}
+
+@media(max-width:480px){
+    .footer{
+        margin-top: 300px;
+        height: 1400px;
+    }
+    .smedia{
+        margin-top: 550px;
+    }
+    .playstore{
+        margin-top: -50px;
+    }
+    #travel{
+        margin-top: -130px;
+    }
+}
+
